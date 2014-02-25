@@ -1,0 +1,37 @@
+--- 
+comics:
+    fingerpori: 
+        title:      "Fingerpori"
+        url:        "http://www.hs.fi/fingerpori/"
+        xpath_date: "//*[@id='full-comic']/div[2]/div[1]/text()"
+        xpath_img:  "//*[@id='full-comic']/div[3]/img/@src"
+  
+    viivijawagner: 
+        title:      "Viivi ja Wagner"
+        url:        "http://www.hs.fi/viivijawagner/"
+        xpath_date: "//*[@id='full-comic']/div[2]/div[1]/text()"
+        xpath_img:  "//*[@id='full-comic']/div[3]/img/@src"
+
+    wumo:
+        title:      "Wumo"
+        url:        "http://nyt.fi/aihe/wumo/"
+        xpath_date: "//*[@id='full-comic']/h2/time/span/text()"
+        xpath_img:  "//*[@id='full-comic']/div[1]/img/@src"
+
+    fokit:
+        title:      "Fok_it"
+        url:        "http://nyt.fi/aihe/fokit/"
+        xpath_date: "//*[@id='full-comic']/h2/time/span/text()"
+        xpath_img:  "//*[@id='full-comic']/div[1]/img/@src"
+
+    anonyymitelaimet:
+        title:      "Anonyymit eläimet"
+        url:        "http://nyt.fi/aihe/anonyymitelaimet/"
+        xpath_date: "//*[@id='full-comic']/h2/time/span/text()"
+        xpath_img:  "//*[@id='full-comic']/div[1]/img/@src"
+
+settings: 
+    directory:          ../comics
+    sub_directories:    true
+    check_hash:         false
+    user_agent:         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11"
