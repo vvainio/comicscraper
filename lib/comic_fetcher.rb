@@ -37,10 +37,4 @@ class ComicFetcher
   end
 end
 
-require './comic_fetcher/scraper'
-
-# c = ComicFetcher.new
-# c.fetch('fingerpori')
-
-# c2 = ComicFetcher.new
-# c2.fetch_all
+require 'comic_fetcher/scraper'
